@@ -31,7 +31,6 @@ $your_query->find(ip2long('127.0.0.1'));
 ## 相关包
 
 * 核心 [larryli/ipv4](https://github.com/larryli/ipv4)
-* 控制台命令 [larryli/ipv4-bin](https://github.com/larryli/ipv4-bin)
-* 控制台支持 [larryli/ipv4-console](https://github.com/larryli/ipv4-console)
+* 控制台命令 [larryli/ipv4-console](https://github.com/larryli/ipv4-console)
 * Yii2 组件 [larryli/ipv4-yii2](https://github.com/larryli/ipv4-yii2)
 * Yii2 示例 [larryli/ipv4-yii2-sample](https://github.com/larryli/ipv4-yii2-sample)
