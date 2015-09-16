@@ -21,7 +21,7 @@ class Database extends BaseDatabase
     protected $medoo;
 
     /**
-     * @param null $options
+     * @param null|array $options
      * @throws \Exception
      */
     public function __construct($options = null)
