@@ -13,11 +13,11 @@ $medoo = new \larryli\ipv4\medoo\Database([
     'database_type' => 'sqlite',
     'database_file' => __DIR__ . '/ipv4.sqlite',
 ]);
-$monipdb = new \larryli\ipv4\MonIPDBQuery(__DIR__ . '/17monipdb.dat');
+$monipdb = new \larryli\ipv4\MonipdbQuery(__DIR__ . '/17monipdb.dat');
 if (!$monipdb->exists()) {
     $monipdb->init();
 }
-$qqwry = new \larryli\ipv4\QQWryQuery(__DIR__ . '/qqwry.dat');
+$qqwry = new \larryli\ipv4\QqwryQuery(__DIR__ . '/qqwry.dat');
 if (!$qqwry->exists()) {
     $qqwry->init();
 }
