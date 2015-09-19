@@ -2,7 +2,8 @@
   "name": "larryli/ipv4-medoo",
   "description": "IP v4 中国城市地址库 Medoo 数据库驱动",
   "homepage": "https://github.com/larryli/ipv4-medoo",
-  "minimum-stability": "beta",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
   "license": "MIT",
   "authors": [
     {
@@ -12,7 +13,7 @@
   ],
   "require": {
     "php": ">=5.4",
-    "larryli/ipv4": "~1.0.0-beta",
+    "larryli/ipv4": "~1.0",
     "catfan/medoo": "~0.9"
   },
   "require-dev": {
